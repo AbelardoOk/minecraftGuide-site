@@ -248,6 +248,63 @@ export default function Home() {
 
         <div className="absolute z-0 h-full w-full backdrop-blur-[0.5px] backdrop-brightness-[0.75]"></div>
       </section>
+
+      {/*  */}
+
+      <section className="bg-footer relative flex h-screen w-screen flex-col justify-center gap-8 overflow-hidden bg-white bg-cover bg-center px-24 py-32 text-center transition-all">
+        <div className="z-10 text-white">
+          <h2 className="text-8xl font-black uppercase drop-shadow-lg">
+            Obrigado por <br /> ter lido até aqui
+          </h2>
+          <h3 className="text-5xl font-semibold capitalize drop-shadow-md">
+            Confira outros links abaixo
+          </h3>
+        </div>
+
+        <div className="z-10 flex flex-row justify-center gap-10">
+          <a
+            href={"https://github.com/AbelardoOk"}
+            target="blank"
+            className="h-14 w-14 rounded-xl bg-white transition-all duration-200 hover:h-16 hover:w-16 hover:bg-slate-300"
+          >
+            <Image
+              className="m-auto h-4/5 w-fit translate-y-[15%]"
+              src="/github.png"
+              alt=""
+              height={512}
+              width={512}
+            />
+          </a>
+          <a
+            href={"https://www.minecraft.net/pt-br"}
+            target="blank"
+            className="h-14 w-14 rounded-xl bg-white transition-all duration-200 hover:h-16 hover:w-16 hover:bg-slate-300"
+          >
+            <Image
+              className="m-auto h-3/5 w-fit translate-y-[30%]"
+              src="/creeper.png"
+              alt=""
+              height={512}
+              width={512}
+            />
+          </a>
+          <a
+            href={"https://minecraft.fandom.com/wiki/Minecraft_Wiki"}
+            target="blank"
+            className="h-14 w-14 rounded-xl bg-white transition-all duration-200 hover:h-16 hover:w-16 hover:bg-slate-300"
+          >
+            <Image
+              className="m-auto h-1/5 w-fit translate-y-[22px]"
+              src="/Minecraft_Wiki_header.png"
+              alt=""
+              height={84}
+              width={300}
+            />
+          </a>
+        </div>
+
+        <div className="absolute z-0 -mx-24 h-full w-full backdrop-blur-sm backdrop-brightness-[0.75]"></div>
+      </section>
     </main>
   );
 }

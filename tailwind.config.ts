@@ -16,6 +16,7 @@ const config: Config = {
         wood: "url('/wood.png')",
         haybale: "url('/haybale.jpg')",
         enderPortal: "url('/enderPortal.jpg')",
+        footer: "url('/wallpaper2.jpg')",
       },
     },
   },
