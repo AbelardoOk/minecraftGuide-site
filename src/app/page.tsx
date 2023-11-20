@@ -26,12 +26,14 @@ export default function Home() {
       {/*  */}
 
       <section className="grid h-screen grid-cols-2 bg-white px-24 py-32 text-black">
-        <div className="flex flex-col justify-between text-justify">
+        <div className="flex flex-col gap-20">
           <h2 className="text-5xl font-extrabold uppercase">Como começar</h2>
 
           <div className="flex flex-col gap-12">
             <div>
-              <h4 className="text-2xl font-semibold">Orientações Iniciais</h4>
+              <h4 className="text-2xl font-semibold text-[#3c8527]">
+                Orientações Iniciais
+              </h4>
               <p>
                 Bem-vindo ao Minecraft, onde você é livre para criar seu próprio
                 mundo de blocos! Se você está começando agora, este guia
@@ -41,7 +43,9 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="text-2xl font-semibold">Primeiros passos</h4>
+              <h4 className="text-2xl font-semibold text-[#3c8527]">
+                Primeiros passos
+              </h4>
               <p>
                 Antes de começar sua aventura, é crucial coletar recursos
                 básicos. Comece cortando árvores para obter madeira, mine pedra
@@ -51,7 +55,9 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="text-2xl font-semibold">Primeira Noite</h4>
+              <h4 className="text-2xl font-semibold text-[#3c8527]">
+                Primeira Noite
+              </h4>
               <p>
                 A primeira noite no Minecraft pode ser desafiadora. Construa um
                 abrigo simples usando os blocos que coletou durante o dia.
@@ -63,12 +69,184 @@ export default function Home() {
         </div>
 
         <Image
-          className="m-auto"
+          className="m-auto drop-shadow-lg"
           src="/workbench.png"
           width={300}
           height={300}
           alt=""
         />
+      </section>
+
+      <section className="bg-stone relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+        <div className="z-10 flex flex-col justify-around gap-20">
+          <h2 className="text-5xl font-extrabold uppercase">
+            Exploração e Recursos
+          </h2>
+
+          <div className="flex flex-col gap-12">
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Mineração Eficiente
+              </h4>
+              <p>
+                A mineração é uma parte crucial do jogo. Encontre cavernas para
+                descobrir minérios valiosos, mas esteja atento aos perigos. Use
+                técnicas eficientes para maximizar seus recursos enquanto
+                minimiza os riscos.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Biomas e Ores
+              </h4>
+              <p>
+                Explore os diversos biomas do Minecraft, cada um com seus
+                recursos únicos. Consulte mapas e coordenadas para encontrar
+                biomas específicos e obtenha informações sobre os recursos
+                disponíveis em cada um.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Image
+          className="z-10 m-auto drop-shadow-lg"
+          src="/pickaxe2.png"
+          width={512}
+          height={512}
+          alt=""
+        />
+
+        <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
+      </section>
+
+      <section className="bg-wood relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+        <div className="z-10 flex flex-col justify-around gap-20">
+          <h2 className="text-5xl font-extrabold uppercase">
+            Construção e Defesa
+          </h2>
+
+          <div className="flex flex-col gap-12">
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Construção de Abrigos
+              </h4>
+              <p>
+                Construa abrigos adequados para sua sobrevivência. Aprenda a
+                criar desde casas simples até fortalezas impressionantes. Dicas
+                de design e decoração serão oferecidas para tornar suas
+                construções ainda mais cativantes.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Defesa contra Monstros
+              </h4>
+              <p>
+                Monstros vagueiam à noite e em lugares escuros. Desenvolva
+                estratégias de defesa eficazes, como iluminação adequada,
+                barreiras defensivas e armadilhas. Mantenha-se seguro enquanto
+                explora o mundo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Image
+          className="z-10 m-auto drop-shadow-lg"
+          src="/brick.png"
+          width={300}
+          height={300}
+          alt=""
+        />
+
+        <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
+      </section>
+
+      <section className="bg-haybale relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+        <div className="z-10 flex flex-col justify-around gap-20">
+          <h2 className="text-5xl font-extrabold uppercase">
+            Agricultura e Criação de animais
+          </h2>
+
+          <div className="flex flex-col gap-12">
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Cultivo Sustentável
+              </h4>
+              <p>
+                Torne-se autossuficiente cultivando alimentos de forma
+                sustentável. Aprenda a criar fazendas automáticas para maximizar
+                a produção, garantindo que nunca fique sem comida.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Criação de Animais
+              </h4>
+              <p>
+                Mantenha animais para obter alimentos e outros recursos. Saiba
+                como cuidar deles e criar sistemas eficientes para garantir um
+                suprimento constante de carne, leite e lã.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Image
+          className="z-10 m-auto drop-shadow-lg"
+          src="/ovelha.png"
+          width={300}
+          height={300}
+          alt=""
+        />
+
+        <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
+      </section>
+
+      <section className="bg-enderPortal relative grid h-screen grid-cols-2 bg-[length:250px_125px] bg-repeat px-24 py-32 text-white">
+        <div className="z-10 flex flex-col justify-around gap-20">
+          <h2 className="text-5xl font-extrabold uppercase">
+            Avanços e exploração no Nether/End
+          </h2>
+
+          <div className="flex flex-col gap-12">
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Portais Nether/End
+              </h4>
+              <p>
+                Desbloqueie novas dimensões, como o Nether e o End. Aprenda a
+                criar portais e navegue com segurança por esses reinos perigosos
+                em busca de recursos únicos.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-semibold text-[#52a535]">
+                Enfrentando Chefes
+              </h4>
+              <p>
+                Prepare-se para enfrentar os chefes mais desafiadores do
+                Minecraft. Descubra estratégias para derrotar o Dragão do End e
+                o Wither, conquistando recompensas valiosas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <Image
+          className="z-10 m-auto drop-shadow-lg"
+          src="/enderDragon.png"
+          width={600}
+          height={600}
+          alt=""
+        />
+
+        <div className="absolute z-0 h-full w-full backdrop-blur-[0.5px] backdrop-brightness-[0.75]"></div>
       </section>
     </main>
   );

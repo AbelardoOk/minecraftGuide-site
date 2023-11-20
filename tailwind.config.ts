@@ -11,6 +11,12 @@ const config: Config = {
       fontFamily: {
         sans: "var(--font-noto-sans)",
       },
+      backgroundImage: {
+        stone: "url('/deepslate.jpg')",
+        wood: "url('/wood.png')",
+        haybale: "url('/haybale.jpg')",
+        enderPortal: "url('/enderPortal.jpg')",
+      },
     },
   },
   plugins: [],
