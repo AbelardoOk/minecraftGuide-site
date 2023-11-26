@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-screen overflow-hidden">
-      <section className="relative flex h-screen w-screen flex-col justify-center overflow-hidden">
+    <main className="scrollbar-thin scrollbar-track-white scrollbar-corner-red scrollbar-thumb-[#70e448]  h-screen w-screen snap-y snap-mandatory overflow-x-hidden !scroll-smooth ">
+      <section className="relative flex h-screen w-screen snap-start snap-always flex-col justify-center overflow-hidden">
         <iframe
           className="absolute z-20"
           src="https://my.spline.design/untitled-eeb93e7ac151a1def4843e6ae82b697d/"
@@ -25,7 +25,7 @@ export default function Home() {
 
       {/*  */}
 
-      <section className="grid h-screen grid-cols-2 bg-white px-24 py-32 text-black">
+      <section className="grid h-screen snap-start snap-always grid-cols-2 bg-white px-24 py-32 text-black">
         <div className="flex flex-col gap-20">
           <h2 className="text-5xl font-extrabold uppercase">Como começar</h2>
 
@@ -77,7 +77,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="bg-stone relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+      <section className="relative grid h-screen snap-start snap-always grid-cols-2 bg-stone bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
         <div className="z-10 flex flex-col justify-around gap-20">
           <h2 className="text-5xl font-extrabold uppercase">
             Exploração e Recursos
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
       </section>
 
-      <section className="bg-wood relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+      <section className="relative grid h-screen snap-start snap-always grid-cols-2 bg-wood bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
         <div className="z-10 flex flex-col justify-around gap-20">
           <h2 className="text-5xl font-extrabold uppercase">
             Construção e Defesa
@@ -165,7 +165,7 @@ export default function Home() {
         <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
       </section>
 
-      <section className="bg-haybale relative grid h-screen grid-cols-2 bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
+      <section className="relative grid h-screen snap-start snap-always grid-cols-2 bg-haybale bg-[length:125px_125px] bg-repeat px-24 py-32 text-white">
         <div className="z-10 flex flex-col justify-around gap-20">
           <h2 className="text-5xl font-extrabold uppercase">
             Agricultura e Criação de animais
@@ -207,7 +207,7 @@ export default function Home() {
         <div className="absolute z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-[0.6]"></div>
       </section>
 
-      <section className="bg-enderPortal relative grid h-screen grid-cols-2 bg-[length:250px_125px] bg-repeat px-24 py-32 text-white">
+      <section className="relative grid h-screen snap-start snap-always grid-cols-2 bg-enderPortal bg-[length:250px_125px] bg-repeat px-24 py-32 text-white">
         <div className="z-10 flex flex-col justify-around gap-20">
           <h2 className="text-5xl font-extrabold uppercase">
             Avanços e exploração no Nether/End
@@ -251,7 +251,7 @@ export default function Home() {
 
       {/*  */}
 
-      <section className="bg-footer relative flex h-screen w-screen flex-col justify-center gap-8 overflow-hidden bg-white bg-cover bg-center px-24 py-32 text-center transition-all">
+      <section className="relative flex h-screen w-screen snap-start snap-always flex-col justify-center gap-8 overflow-hidden bg-white bg-footer bg-cover bg-center px-24 py-32 text-center">
         <div className="z-10 text-white">
           <h2 className="text-8xl font-black uppercase drop-shadow-lg">
             Obrigado por <br /> ter lido até aqui
