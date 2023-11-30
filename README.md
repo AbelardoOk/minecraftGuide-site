@@ -16,7 +16,7 @@ npm install
 ```
 
 ```sh
-npm install
+npm run build
 ```
 
 Para iniciar o servidor com o site, digite:
